@@ -1,0 +1,6 @@
+---
+all:
+  children:
+    switches:
+      hosts:
+        Switch-1:

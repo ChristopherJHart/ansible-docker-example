@@ -1,0 +1,4 @@
+---
+- hosts: switches
+  roles:
+    - logging

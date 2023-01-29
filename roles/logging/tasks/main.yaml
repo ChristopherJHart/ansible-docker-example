@@ -1,0 +1,6 @@
+---
+- name: Configure logging buffer size
+  cisco.ios.ios_logging_global:
+    config:
+      buffered:
+        size: 256000

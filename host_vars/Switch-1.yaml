@@ -1,0 +1,5 @@
+---
+ansible_host: 192.168.10.3
+ansible_ssh_common_args: >-
+  -o HostKeyAlgorithms=ssh-rsa
+  -o KexAlgorithms=diffie-hellman-group1-sha1
